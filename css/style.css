@@ -8,11 +8,22 @@
 }
 
 body {
+	-webkit-touch-callout: none;
+   	-webkit-user-select: none;
+   	-khtml-user-select: none;
+   	-moz-user-select: none;
+   	-ms-user-select: none;
+   	user-select: none;
 	width: 100%;
 	min-height: 100vh;
 	background-image: linear-gradient(to right, #434343 0%, black 100%);
 	display: flex;
 	justify-content: center;
+	overflow: hidden;
+}
+
+img {
+	pointer-events: none;
 }
 
 .instagram-wrapper {
@@ -26,10 +37,19 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 3s; /* don't forget to set a duration! */
 }
 
 .instagram-phone img {
 	height: 40rem;
+}
+
+.instagram-phone img:nth-child(2) {
+	right: 22rem;
+    bottom: 0.8rem;
+    position: relative;
+    height: 27.6rem;
 }
 
 .instagram-continue {
@@ -38,7 +58,10 @@ body {
 	justify-content: space-around;
 	flex-direction: column;
 	width: 50%;
+	margin-left: -14rem;
 	min-height: 34rem;
+	animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 3s; /* don't forget to set a duration! */
 }
 
 .group {
@@ -46,18 +69,20 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, .7);
+	border-radius: 15px;
 	width: 100%;
 	padding: 1.3rem 0;
-	border: 1px solid darkgray;
+	border: 2px solid #fff;
+	margin-top: 15px;
 }
 
 .group:nth-child(1) {
-	min-height: rem;
+	min-height: 6rem;
 }
 
 .instagram-logo {
-	height: 3rem;
+	height: 6.5rem;
 }
 
 .profile-photo {
@@ -102,6 +127,8 @@ body {
 	color: #fff;
 	width: 100%;
 	padding: 1.3rem 0;
+	animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2.5s; /* don't forget to set a duration! */
 }
 
 .download {
@@ -110,12 +137,15 @@ body {
 	justify-content: space-evenly;
 	align-items: center;
 	padding: 1rem;
+	margin: 2px 10px;
 }
 
 .app-download {
 	height: 3rem;
 	width: 10rem;
 	background-size: contain;
+	animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2.5s; /* don't forget to set a duration! */
 }
 
 .app-download:nth-child(1) {
@@ -132,6 +162,8 @@ body {
 	width: 80%;
 	left: 12rem;
 	bottom: 1rem;
+	animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2.5s; /* don't forget to set a duration! */
 }
 
 .externos p {
@@ -181,6 +213,16 @@ li a {
 		margin-right: 3rem;
 		font-size: 12px;
 	}
+
+	.app-download {	
+   	 	margin: 0 -15px;
+	}
+	.instagram-phone img:nth-child(2) {
+		right: 17.65rem;
+	    bottom: 0.6rem;
+	    position: relative;
+	    height: 22rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -192,7 +234,13 @@ li a {
 	}
 	.instagram-continue {
 		width: 100%;
+		margin-left: 0;
 	}
+
+	.app-download {	
+   	 	margin: 0;
+	}
+
 	.externos {
 		width: 70%;
 		left: 7rem;
@@ -201,10 +249,13 @@ li a {
 	.externos p {
 		display: none;
 	}
+
+
 }
 
 @media (max-width: 400px) {
 	.externos {
 		left: 7rem;
 	}
+
 }
