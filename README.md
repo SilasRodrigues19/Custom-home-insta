@@ -101,5 +101,5 @@ Project Link: [https://github.com/SilasRodrigues19/Custom-home-insta](https://gi
 [issues-url]: https://github.com/SilasRodrigues19/Custom-home-insta/issues
 [license-shield]: https://img.shields.io/github/license/SilasRodrigues19/Custom-home-insta?style=for-the-badge
 [license-url]: https://github.com/SilasRodrigues19/Custom-home-insta/blob/main/LICENSE
-[product-screenshot]: https://i.ibb.co/bPds3jt/snake.png
+[product-screenshot]: https://github.com/SilasRodrigues19/Custom-home-insta/blob/master/img/insta-desktop.png?raw=true
 
