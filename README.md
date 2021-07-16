@@ -100,6 +100,6 @@ Project Link: [https://github.com/SilasRodrigues19/Custom-home-insta](https://gi
 [issues-shield]: https://img.shields.io/github/issues/SilasRodrigues19/Custom-home-insta.svg?style=for-the-badge
 [issues-url]: https://github.com/SilasRodrigues19/Custom-home-insta/issues
 [license-shield]: https://img.shields.io/github/license/SilasRodrigues19/Custom-home-insta?style=for-the-badge
-[license-url]: https://github.com/SilasRodrigues19/Custom-home-insta/blob/main/LICENSE
+[license-url]: https://github.com/SilasRodrigues19/Custom-home-insta/blob/master/LICENSE
 [product-screenshot]: https://github.com/SilasRodrigues19/Custom-home-insta/blob/master/img/insta-desktop.png?raw=true
 
