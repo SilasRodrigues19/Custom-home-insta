@@ -159,7 +159,7 @@ img {
 .externos {
 	position: absolute;
 	display: flex;
-	width: 80%;
+	width: 100%;
 	left: 12rem;
 	bottom: 1rem;
 	animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
@@ -205,7 +205,7 @@ li a {
 	.externos {
 		width: 70%;
 		left: 7rem;
-		bottom: 2rem;
+		bottom: 0;
 	}
 
 	.externos p {
@@ -238,7 +238,14 @@ li a {
 	}
 
 	.app-download {	
-   	 	margin: 0;
+   	 	top: -11px;
+	    position: relative;
+	    height: 1.5rem;
+	    width: 5rem;
+	    margin-top: 3px;
+	    background-size: contain;
+	    animation: fadeInDown;
+	    animation-duration: 2.5s;
 	}
 
 	.externos {
