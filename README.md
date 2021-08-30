@@ -1,4 +1,4 @@
-[![Stargazers][stars-shield]][stars-url]
+[![Stargazers][stars-shield]][stars-ur]
 [![Issues][issues-shield]][issues-url]
 [![MIT Licence][license-shield]][license-url]
 
