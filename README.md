@@ -6,6 +6,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<samp>
 <p align="center">
   <a href="https://clone-insta-homepage.vercel.app">
     <img src="https://i.pinimg.com/originals/c9/d2/34/c9d2347a80a91b5147a578da2a4bbfae.png" alt="Logo" width="80" height="80">
